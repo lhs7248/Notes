@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div class="header">随记</div>
     <div class="row-item" v-for="item in rows ">
       <a class="item"  v-bind:href=item.url target="_blank">{{item.name}}</a>
       <div style="background-color: #999999;width: 100%;height: 1px;margin-top: 5px"></div>
@@ -11,7 +10,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'iOSBlog',
   data () {
     return {
       rows: [
@@ -28,7 +27,6 @@ export default {
         {name: 'KVO原理及如何自己实现KVO', url: 'http://note.youdao.com/noteshare?id=0280ba59e08534bd28cc8b77ae842972'},
 
         {name: 'class 、object及method', url: 'http://note.youdao.com/noteshare?id=572f853d39f266957f0b7fda83df66a9'}
-
 
       ]
     }
