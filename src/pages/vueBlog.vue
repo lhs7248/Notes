@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="row-item" v-for="item in rows ">
+    <div class="row-item" v-for="item in rows " v-bind:key="item">
       <a class="item"  v-bind:href=item.url target="_blank">{{item.name}}</a>
       <div style="background-color: #999999;width: 100%;height: 1px;margin-top: 5px"></div>
     </div>
