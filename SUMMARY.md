@@ -4,6 +4,11 @@
 
 ## iOS
 
+* [IPA大小](ios/ipa-da-xiao/README.md)
+  * [Asset](ios/ipa-da-xiao/asset.md)
+* [Untitled](ios/untitled.md)
+* [Hybrid](ios/hybrid.md)
+* [APM](ios/apm.md)
 * [库](ios/ku.md)
 * [Object-c](ios/object-c.md)
 * [Swift](ios/swift/README.md)
@@ -13,9 +18,14 @@
 
 ## Xcode
 
-* [Xcode 功能](xcode/xcode-gong-neng/README.md)
+* [Xcode](xcode/xcode-gong-neng/README.md)
+  * [签名](xcode/xcode-gong-neng/qian-ming.md)
   * [xcodeproj](xcode/xcode-gong-neng/xcodeproj.md)
+  * [Xcode管理](xcode/xcode-gong-neng/xcode-guan-li.md)
 * [Doc](xcode/doc.md)
+* [编译](xcode/bian-yi/README.md)
+  * [编译命令](xcode/bian-yi/bian-yi-ming-ling.md)
+* [Untitled](xcode/untitled.md)
 
 ## Cocoapods
 
