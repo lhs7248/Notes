@@ -47,5 +47,5 @@
 
 ## Linux命令
 
-* [LS](linux-ming-ling/ls.md)
+* [ls](linux-ming-ling/ls.md)
 
